@@ -3,7 +3,7 @@
 사용자가 ‘정책 중심’의 기준으로
  후보자를 이해하고 선택할 수 있도록 돕는 정치 참여 플랫폼
 
- [![View Demo](https://img.shields.io/badge/🚀%20View%20Demo-Click%20Here-black)](https://pick-me-up-orcin.vercel.app/)
+ [![View Demo](https://img.shields.io/badge/🚀%20View%20Demo-Click%20Here-black)](https://pick-me-up-three.vercel.app/)
 
 
 ---
