@@ -28,9 +28,9 @@ const VoteCount = () => {
   const displayVotes = Math.max(totalVotes - 1000, 0);
 
   return (
-    <p className="text-primary mb-1.5 text-center font-bold md:mb-2.5 md:text-xl">
+    <p className="text-primary mb-1.5 text-center font-bold md:mb-2.5 md:text-xl dark:text-white">
       지금까지{' '}
-      <strong className="animate-pulse font-extrabold text-black">
+      <strong className="animate-pulse font-extrabold text-black dark:text-white">
         {displayVotes.toLocaleString()}
       </strong>{' '}
       명이 공약을 읽고
