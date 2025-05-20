@@ -31,14 +31,14 @@ export const candidates = [
     slogan: '갈아엎자! 불평등 세상',
     colorClassName: 'bg-labor',
   },
-  {
-    id: 5,
-    imgSrc: '/candidates/구주와.png',
-    name: '구주와',
-    party: '자유통일당',
-    slogan: '광화문 정신! 정치 교체!',
-    colorClassName: 'bg-free',
-  },
+  // {
+  //   id: 5,
+  //   imgSrc: '/candidates/구주와.png',
+  //   name: '구주와',
+  //   party: '자유통일당',
+  //   slogan: '광화문 정신! 정치 교체!',
+  //   colorClassName: 'bg-free',
+  // },
   {
     id: 6,
     imgSrc: '/candidates/황교안.png',
