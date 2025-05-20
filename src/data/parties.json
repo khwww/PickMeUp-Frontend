@@ -88,13 +88,14 @@
     "color": "bg-free/70",
     "candidates": [
       {
-        "name": "구주와",
+        "name": "구주와(사퇴)",
         "image": "/candidates/구주와.png",
         "policyRef": "구주와",
         "color": "bg-free",
         "info": {
-          "birth": "1980년 1월 23일, 45세",
+          "birth": ["2025년 5월 19일 사퇴"],
           "history": [
+            "1980년 1월 23일, 45세",
             "자유통일당 최고위원",
             "법무법인 비트윈 변호사",
             "국민혁명당 대변인",
