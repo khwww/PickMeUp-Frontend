@@ -1,5 +1,6 @@
 #!/bin/sh
-cd ../
-mkdir output
-cp -R ./PickMeUp-Frontend/* ./output
-cp -R ./output ./PickMeUp-Frontend/
+
+mkdir -p output
+cp -r * ./output
+rm -rf ./output/output    
+rm -rf ./output/.git      
