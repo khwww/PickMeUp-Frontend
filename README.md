@@ -82,24 +82,24 @@ PickMeUp은 2025년 대선 정보를 제공한 [뉴닉 이슈 – 대선2025](ht
     <th>공약 총정리</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/628949ad-1ccd-4fa1-8612-5ee2fbe3345f" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/ca279b60-b9ff-46b7-8191-61da9face8a9" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/628949ad-1ccd-4fa1-8612-5ee2fbe3345f" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ca279b60-b9ff-46b7-8191-61da9face8a9" width="350"/></td>
   </tr>
   <tr>
     <th>투표소 찾기</th>
     <th>모의 투표</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/84dcc079-badd-4dfd-ab1f-d5389aebe750" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/807b1bc2-c3b7-4532-aea4-18dd546ecce2" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/84dcc079-badd-4dfd-ab1f-d5389aebe750" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/807b1bc2-c3b7-4532-aea4-18dd546ecce2" width="350"/></td>
   </tr>
   <tr>
     <th>실시간 지지율</th>
     <th>응원 한마디</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/c6a81d14-3239-4015-b8ca-7ed6faf85862" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5ecdc217-7544-46d5-ae8c-656ac8719958" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c6a81d14-3239-4015-b8ca-7ed6faf85862" width="350"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5ecdc217-7544-46d5-ae8c-656ac8719958" width="350"/></td>
   </tr>
 </table>
 
