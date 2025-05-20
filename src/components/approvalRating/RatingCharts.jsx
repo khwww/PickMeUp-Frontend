@@ -27,7 +27,7 @@ const RatingCharts = () => {
 
   const renderBarItems = () =>
     ratings
-      .filter((candidate) => candidate.name !== '기타')
+      .filter((candidate) => candidate.name !== '기타' && candidate.name !== '구주와')
       .map((candidate) => (
         <BarItem key={candidate.id} {...candidate} color={`--color-${candidate.partyKey}`} />
       ));
