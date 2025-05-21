@@ -76,7 +76,9 @@ html::-webkit-scrollbar {
 
 /*커서 변경*/
 body {
-  cursor: url('/src/assets/cursor.svg'), auto;
+  cursor:
+    url('/src/assets/cursor.svg') 18 18,
+    auto;
 }
 
 button,
@@ -84,7 +86,9 @@ a,
 select,
 option,
 [class*='cursor-pointer'] {
-  cursor: url('/src/assets/cursor.svg'), auto !important;
+  cursor:
+    url('/src/assets/cursor.svg') 18 18,
+    auto !important;
 }
 
 @media (max-width: 768px) {
@@ -93,7 +97,9 @@ option,
   }
 
   body {
-    cursor: url('/src/assets/cursor-m.png'), auto;
+    cursor:
+      url('/src/assets/cursor-m.png') 12 12,
+      auto;
   }
 
   button,
@@ -101,7 +107,9 @@ option,
   select,
   option,
   [class*='cursor-pointer'] {
-    cursor: url('/src/assets/cursor-m.png'), auto !important;
+    cursor:
+      url('/src/assets/cursor-m.png') 12 12,
+      auto !important;
   }
 }
 
