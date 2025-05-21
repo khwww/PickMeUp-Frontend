@@ -27,9 +27,9 @@ const FadeInLazyWrapper = ({ id, componentKey, delay = 0, fallback = null }) => 
         case 'Map':
           return '1027px';
         case 'Vote':
-          return '1098px';
+          return '950px';
         case 'ApprovalRating':
-          return '756px';
+          return '700px';
         case 'CheerSection':
           return '963px';
         default:
