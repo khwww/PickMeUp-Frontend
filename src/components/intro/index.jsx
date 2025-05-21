@@ -37,7 +37,7 @@ function Intro() {
         <Lottie options={defaultOptions} />
       </div>
       <MainParagraph className="mb-20">
-        대선 본투표일까지 <b className="font-extrabold">{daysUntil(new Date('2025.06.03'))}일</b>{' '}
+        대선 본투표일까지 <b className="font-extrabold">{daysUntil(new Date(2025, 5, 3))}일</b>{' '}
         남았어요
       </MainParagraph>
       <TimeLine />
