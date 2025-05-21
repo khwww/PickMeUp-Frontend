@@ -45,7 +45,6 @@ const CheerForm = ({ onAddMessage }) => {
       uid: uuidv4(),
     };
 
-    // ✅ 낙관적 UI 적용: 먼저 메시지 반영
     onAddMessage(optimisticMessage);
 
     try {
@@ -54,7 +53,6 @@ const CheerForm = ({ onAddMessage }) => {
         content: message,
       });
 
-      // 실제 성공 시, 이후 새로고침이나 페이징에서 대체될 수 있도록 UID는 유지
       toast.success('응원 메시지가 전송되었습니다.');
     } catch (err) {
       console.error('메시지 전송 실패:', err);

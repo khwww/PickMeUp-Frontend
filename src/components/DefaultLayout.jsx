@@ -8,7 +8,6 @@ import GlobalNavigation from './navigation/index.jsx';
 
 const DefaultLayout = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isEndOfScroll, setIsEndOfScroll] = useState(false);
 
   // 다크 모드 상태를 변경하고 localStorage에 저장
   const toggleDarkMode = () => {
@@ -36,25 +35,11 @@ const DefaultLayout = () => {
     }
   }, [isDarkMode]);
 
-  useEffect(() => {
-    /** 스크롤이 끝에 다다르면 네비게이션 바 보이기 */
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) setIsEndOfScroll(true);
-      });
-    });
-
-    const target = document.getElementById('footer');
-    if (target) observer.observe(target);
-
-    return () => observer.unobserve(target);
-  }, []);
-
   return (
     <div className="bg-white text-black dark:bg-black dark:text-white">
       <main className="min-h-screen">
         <Header toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
-        <GlobalNavigation className={isEndOfScroll ? 'flex' : 'hidden'} />
+        <GlobalNavigation className="flex" />
         <Intro />
         <LazyWrapper id="policy" componentKey="PolicySummary" delay={0.1} />
         <LazyWrapper id="map" componentKey="Map" delay={0.1} />

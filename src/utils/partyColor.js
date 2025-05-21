@@ -1,4 +1,3 @@
-// utils/partyColor.js
 const PARTY_COLORS = {
   1: 'bg-[#002BFF]/70', // 더불어민주당
   2: 'bg-[#E61E2B]/70', // 국민의힘
