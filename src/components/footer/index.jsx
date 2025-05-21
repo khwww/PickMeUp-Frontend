@@ -10,7 +10,7 @@ function Footer() {
       <p className="text-independent text-sm">
         최신 업데이트
         <br />
-        2025.05.20
+        2025.05.21
       </p>
     </footer>
   );
