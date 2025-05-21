@@ -35,7 +35,9 @@
   --color-reform: #ff7210; /* 개혁신당 */
   --color-labor: #ffed00; /* 민주노동당 */
   --color-free: #d6001c; /* 자유통일당 */
-  --color-independent: #808080; /* 무소속 */
+  --color-independent: #808080;
+  --color-independent1: #808080; /* 무소속 - 황교안*/
+  --color-independent2: #bdbdbd; /* 무소속 - 송진호*/
   --color-primary: #292b2e;
   --color-secondary: #f5f5f5;
 }

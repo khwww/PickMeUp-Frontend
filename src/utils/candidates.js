@@ -45,7 +45,7 @@ export const candidates = [
     name: '황교안',
     party: '무소속',
     slogan: '부정선거 척결로 청년에게 미래를',
-    colorClassName: 'bg-independent',
+    colorClassName: 'bg-independent1',
   },
   {
     id: 7,
@@ -53,6 +53,6 @@ export const candidates = [
     name: '송진호',
     party: '무소속',
     slogan: '선경제, 후정치!',
-    colorClassName: 'bg-independent',
+    colorClassName: 'bg-independent2',
   },
 ];

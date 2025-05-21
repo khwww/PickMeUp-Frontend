@@ -107,13 +107,13 @@
   },
   {
     "party": "황교안(무소속)",
-    "color": "bg-independent/70",
+    "color": "bg-independent1/70",
     "candidates": [
       {
         "name": "황교안",
         "image": "/candidates/황교안.png",
         "policyRef": "황교안",
-        "color": "bg-independent",
+        "color": "bg-independent1",
         "info": {
           "birth": "1957년 4월 15일, 68세",
           "history": [
@@ -129,13 +129,13 @@
   },
   {
     "party": "송진호(무소속)",
-    "color": "bg-independent/70",
+    "color": "bg-independent2/70",
     "candidates": [
       {
         "name": "송진호",
         "image": "/candidates/송진호.png",
         "policyRef": "송진호",
-        "color": "bg-independent",
+        "color": "bg-independent2",
         "info": {
           "birth": "1968년 3월 28일, 57세",
           "history": [

@@ -12,8 +12,8 @@ const CANDIDATE_INFO = {
   3: { name: '이준석', party: '개혁신당', partyKey: 'reform', image: '/candidates/이준석.png' },
   4: { name: '권영국', party: '민주노동당', partyKey: 'labor', image: '/candidates/권영국.png' },
   5: { name: '구주와', party: '자유통일당', partyKey: 'free', image: '/candidates/구주와.png' },
-  6: { name: '황교안', party: '무소속', partyKey: 'independent', image: '/candidates/황교안.png' },
-  7: { name: '송진호', party: '무소속', partyKey: 'independent', image: '/candidates/송진호.png' },
+  6: { name: '황교안', party: '무소속', partyKey: 'independent1', image: '/candidates/황교안.png' },
+  7: { name: '송진호', party: '무소속', partyKey: 'independent2', image: '/candidates/송진호.png' },
   8: { name: '기타', party: '', partyKey: 'primary', image: '' },
 };
 
